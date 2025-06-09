@@ -9,7 +9,7 @@ document.querySelector('.contact-form').addEventListener('submit', async functio
     };
 
     try {
-        const res = await fetch("/api/send-email", {
+        const res = await fetch("https://portafolio-back-ege1.onrender.com/api/send-email", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(payload),
