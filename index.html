@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href=" css/styles.css">
+    <title>Portfolio Jesús</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#hero" class="logo">Profile<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+            <div class="menu-btn">
+                <div class="btn-line"></div>
+                <div class="btn-line"></div>
+                <div class="btn-line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="contenido-secciones">
+        <!-- Profile -->
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="title-word title-word-1">Hello,</span>
+                        <span class="title-word title-word-2">I'm</span>
+                        <span class="title-word title-word-3">Jesús</span>
+                        <span class="title-word title-word-4">Developer</span>
+                    </h1>
+                    <p class="hero-subtitle">Junior Frontend Developer</p>
+                    <a href="#projects" class="btn btn-primary">Check out my work</a>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <img src=" img/perfil2.jpg" alt="Developer" class="profile-img">
+                        <div class="glow"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <span>Scroll down</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
+
+        <!-- About Me -->
+        <section id="about" class="section about">
+            <div class="container">
+                <h2 class="section-title">About <span>Me</span></h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I'm a junior frontend developer passionate about technology, with some experience building
+                            web applications and digital experiences.</p>
+                        <p>I started my path in programming at a young age, experimenting with HTML and CSS, and today I
+                            specialize mainly in Node.js. I'm motivated by solving complex problems and developing
+                            intuitive and efficient interfaces that enhance the user experience.</p>
+                        <div class="hidden-content">
+                            <p>When I'm not coding, you can find me cooking, drawing or watching movies.</p>
+                            <p>I've also collaborated on several team projects where we applied agile methodologies and
+                                version control using Git. My focus has always been on writing clean, maintainable code
+                                and continuously learning new tools and technologies.</p>
+                            <p>My goal is to grow into a professional capable of leading development teams and
+                                delivering impactful software solutions.</p>
+                        </div>
+
+                        <div class="about-links">
+                            <a href="#" id="seeMoreBtn" class="btn btn-small btn-outline">See more</a>
+                            <a href=" docs/jesús_sandoval_cv.pdf" class="btn btn-primary" download>Download CV</a>
+                            <div class="social-links">
+                                <a href="https://github.com/jesuSando"><i class="fab fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/jesús-sandoval-martínez-983112292/"><i
+                                        class="fab fa-linkedin"></i></a>
+                                <a href="https://www.instagram.com/vzzaroo/"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stats-item">
+                            <div class="stats-number" data-count="20">0</div>
+                            <div class="stats-label">Projects Completed</div>
+                        </div>
+                        <div class="stats-item">
+                            <div class="stats-number" data-count="3">0</div>
+                            <div class="stats-label">Months Experience</div>
+                        </div>
+                        <div class="stats-item">
+                            <div class="stats-number" data-count="12">0</div>
+                            <div class="stats-label">Technologies</div>
+                        </div>
+                        <div class="stats-item">
+                            <div class="stats-number" data-count="3">0</div>
+                            <div class="stats-label">Developed dashboards (Chart.js, Gridstack)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section projects">
+            <div class="container">
+                <h2 class="section-title">My <span>Projects</span></h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src=" img/SkyCkeck.png" alt="project 1">
+                        </div>
+                        <div class="project-info">
+                            <h3>SkyCheck</h3>
+                            <p>Interactive weather appliation with forecast visualization.</p>
+                            <div class="project-tech">
+                                <span>Node.js</span>
+                                <span>JavaScript</span>
+                                <span>API</span>
+                                <span>Chart.js</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://skycheck-22f9.onrender.com/" class="btn btn-small">View</a>
+                                <a href="https://github.com/jesuSando/weather-app.git"
+                                    class="btn btn-small btn-outline">Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src=" img/Dashboard-empresas.png" alt="project 1">
+                        </div>
+                        <div class="project-info">
+                            <h3>Dashboard for Companies</h3>
+                            <p>Interactive dashboard to efficiently manage roles and users</p>
+                            <div class="project-tech">
+                                <span>JavaScript</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>PHP</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="redirect.html"redirect" class="btn btn-small">View</a>
+                                <a href="https://github.com/jesuSando/dashboard-empresas.git"
+                                    class="btn btn-small btn-outline">Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src=" img/listener.png" alt="project 1">
+                        </div>
+                        <div class="project-info">
+                            <h3>Status Checker</h3>
+                            <p>Dashboard that allows you to see the active or inactive status of the APIs.</p>
+                            <div class="project-tech">
+                                <span>Node.js</span>
+                                <span>JavaScript</span>
+                                <span>Express.js</span>
+                                <span>API</span>
+
+                            </div>
+                            <div class="project-links">
+                                <a href="redirect.html"redirect" class="btn btn-small">View</a>
+                                <a href="https://github.com/jesuSando/listener.git"
+                                    class="btn btn-small btn-outline">Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hidden-projects">
+                    <div class="more-projects-container">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src=" img/SkyCkeck.png" alt="project 1">
+                            </div>
+                            <div class="project-info">
+                                <h3>SkyCheck</h3>
+                                <p>Interactive weather appliation with forecast visualization.</p>
+                                <div class="project-tech">
+                                    <span>JavaScript</span>
+                                    <span>API</span>
+                                    <span>Chart.js</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://skycheck-22f9.onrender.com/" class="btn btn-small">View</a>
+                                    <a href="https://github.com/jesuSando/weather-app.git"
+                                        class="btn btn-small btn-outline">Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src=" img/Dashboard-empresas.png" alt="project 1">
+                            </div>
+                            <div class="project-info">
+                                <h3>Dashboard for Companies</h3>
+                                <p>Interactive dashboard to efficiently manage roles and users</p>
+                                <div class="project-tech">
+                                    <span>JavaScript</span>
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>PHP</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="redirect.html"redirect" class="btn btn-small">View</a>
+                                    <a href="https://github.com/jesuSando/dashboard-empresas.git"
+                                        class="btn btn-small btn-outline">Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src=" img/ejemplo.png" alt="project 1">
+                            </div>
+                            <div class="project-info">
+                                <h3>Project 3</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <div class="project-tech">
+                                    <span>leng1</span>
+                                    <span>leng2</span>
+                                    <span>leng3</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="redirect.html"redirect" class="btn btn-small">View</a>
+                                    <a href="#" class="btn btn-small btn-outline">Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hidden-contributions">
+                    <h3 class="contributions-title">Main <span>Contributions</span></h3>
+                    <div class="contributions-container">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src=" img/backend.png" alt="backend project">
+                            </div>
+                            <div class="project-info">
+                                <h3>Spence Backend Integration</h3>
+                                <p>Node.js backend that connects Spence devices with th MasGPS API to retrive real-time
+                                    data like driver info, speed and odometer reading.</p>
+                                <div class="project-tech">
+                                    <span>Node.js</span>
+                                    <span>Express.js</span>
+                                    <span>API</span>
+                                </div>
+                                <p>(Code Not Avalible)</p>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src=" img/DuocApp.png" alt="frontend app">
+                            </div>
+                            <div class="project-info">
+                                <h3>Frontend DuocApp</h3>
+                                <p>Application for recording student attendance by scanning QR codes in classrooms.</p>
+                                <div class="project-tech">
+                                    <span>TypeScript</span>
+                                    <span>HTML</span>
+                                    <span>SCSS</span>
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="redirect.html"redirect" class="btn btn-small">View</a>
+                                    <a href="https://github.com/Pipo9308/Duoc----RegistrApp.git"
+                                        class="btn btn-small btn-outline">Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src=" img/ejemplo.png" alt="project 1">
+                            </div>
+                            <div class="project-info">
+                                <h3>Project 3</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <div class="project-tech">
+                                    <span>leng1</span>
+                                    <span>leng2</span>
+                                    <span>leng3</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="btn btn-small">View</a>
+                                    <a href="#" class="btn btn-small btn-outline">Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center btns-container">
+                    <a href="" id="moreProjects" class="btn btn-primary">More Projects</a>
+                    <a href="" id="contributions" class="btn btn-outline">Contributions</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section id="experience" class="section experience">
+            <div class="container">
+                <h2 class="section-title">My <span>Experience</span></h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2025 - Present</div>
+                        <div class="timeline-content">
+                            <h3>Junior Developer</h3>
+                            <h4>Wit digital solutions</h4>
+                            <p>I started working as an intern in a technology solutions company where I have worked a
+                                lot.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2022 - 2024</div>
+                        <div class="timeline-content">
+                            <h3>Student</h3>
+                            <h4>Duoc UC</h4>
+                            <p>I started studying as a computer programmer analyst at the age of 18.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2020 - 2022</div>
+                        <div class="timeline-content">
+                            <h3>Video Editor</h3>
+                            <p>During the covid pandemic I worked as a video editor for youtubers and streamers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section skills">
+            <div class="container">
+                <h2 class="section-title">Technical <span>Skills</span></h2>
+                <div class="skills-container">
+                    <div class="skills-category">
+                        <h3>Frontend</h3>
+                        <div class="skill-item">
+                            <span class="skill-name">HTML</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="65"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <h3>Backend</h3>
+                        <div class="skill-item">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="65"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">PHP</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="50"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="90"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <h3>Tools</h3>
+                        <div class="skill-item">
+                            <span class="skill-name">Git & Github</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Postman</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="60"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Figma</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section contact">
+            <div class="container">
+                <h2 class="section-title">Get In <span>Touch</span></h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div class="contact-text">
+                                <h3>Email</h3>
+                                <p>jesusjs.dev@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div class="contact-text">
+                                <h3>Phone</h3>
+                                <p>+56 9 81226760</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="contact-text">
+                                <h3>Location</h3>
+                                <p>Santiago, CL</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name-form" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email-form" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject-form" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message-form" placeholder="Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="send-contact">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog -->
+        <section id="blog" class="section blog">
+            <div class="container">
+                <h2 class="section-title">My <span>Blog</span></h2>
+                <div class="blog-grid">
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <img src=" img/ejemplo.png" alt="Blog post">
+                            <div class="blog-date">2025</div>
+                        </div>
+                        <div class="blog-content">
+                            <h3>titulo 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse iusto nesciunt vel eaque
+                                rem, optio impedit saepe rerum architecto autem quod, libero eos excepturi quibusdam ex
+                                fuga omnis, mollitia maxime.</p>
+                            <a href="#" class="btn btn-small">Read More</a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <img src=" img/ejemplo.png" alt="Blog post">
+                            <div class="blog-date">2025</div>
+                        </div>
+                        <div class="blog-content">
+                            <h3>titulo 2</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse iusto nesciunt vel eaque
+                                rem, optio impedit saepe rerum architecto autem quod, libero eos excepturi quibusdam ex
+                                fuga omnis, mollitia maxime.</p>
+                            <a href="#" class="btn btn-small">Read More</a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <img src=" img/ejemplo.png" alt="Blog post">
+                            <div class="blog-date">2025</div>
+                        </div>
+                        <div class="blog-content">
+                            <h3>titulo 3</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse iusto nesciunt vel eaque
+                                rem, optio impedit saepe rerum architecto autem quod, libero eos excepturi quibusdam ex
+                                fuga omnis, mollitia maxime.</p>
+                            <a href="#" class="btn btn-small">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="#" class="btn btn-outline">View All Posts</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <a href="#hero" class="logo">Jesús Sandoval<span>.</span></a>
+                    <p>Junior Frontend Developer creating digital experiences</p>
+                    <div class="social-links">
+                        <a href="https://github.com/jesuSando"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/jesús-sandoval-martínez-983112292/"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/vzzaroo/"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#contact" class="contact-link" data-subject="Web Development">Web Development</a>
+                        </li>
+                        <li><a href="#contact" class="contact-link" data-subject="UI/UX Design">UI/UX Design</a></li>
+                        <li><a href="#contact" class="contact-link" data-subject="Video/Photo Editing">Video/Photo
+                                Editing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-cta">
+                    <h3>Let's Work Together</h3>
+                    <p>If you have a project, idea or just want to collaborate, feel free to reach out.</p>
+                    <a href="#contact" class="btn btn-small btn-primary">Start a Conversation</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dev Portfolio.</p>
+                <div class="footer-legal">
+                    <p>Thx 4 Watching :p</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src=" js/script.js"></script>
+    <script src=" js/form.js"></script>
+
+</html>
